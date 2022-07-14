@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car</title>
+</head>
+<body style="background-color: #D3CEDF;">
+
+	<div style="text-align: center; margin-top: 200px;">
+		<img alt="" src="stop.png" 
+		style="height: 50%; width:50%; border-radius:20px;"  id="imgClickAndChange"/>
+
+		<button onclick="bulbon()">Start</button>
+		<button onclick="bulboff()">Stop</button>
+
+
+	</div>
+	
+
+
+	<script>
+		function bulbon() {
+			
+			document.getElementById("imgClickAndChange").src = "chalu.gif";
+		}
+
+
+
+		function bulboff() {
+			
+			document.getElementById("imgClickAndChange").src = "stop.png";
+		}
+
+
+	</script>
+</body>
+</html>
